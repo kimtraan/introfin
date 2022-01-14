@@ -1,0 +1,33 @@
+/*creates the header at the top of page*/
+.header {
+    display:flex;
+    align-items: center;
+}
+
+/*defines logo image dimensions*/
+.image {
+    width: 7rem;
+    height: auto;
+}
+
+/*dimensions for phone*/
+@media only screen and (min-width: 414px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+/*dimensions for tablet*/
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+/*dimensions for desktop*/
+@media only screen and (min-width: 1080px) {
+    html {
+        font-size: 20px;
+    }
+}
+
